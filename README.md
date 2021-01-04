@@ -18,7 +18,7 @@ Place the shortcode ['favorite_post_display'] to display the favorites post of a
 You can use Favorite posts widget to in your site via wp-content/appearance/widgets/favorite-post-list-widgets.
 
 ### API
-In order to display the user favorite lists - http://localhost/cloviotest/wp-json/favorite-post/v2/author/<id>
-In order to update the user favorite lists - http://localhost/cloviotest/wp-json/favorite-post/v2/author/?author_id=&old_post_id=&new_id=
+In order to display the user favorite lists -{site_url}/wp-json/favorite-post/v2/author/<id>
+In order to update the user favorite lists - {site_url}/wp-json/favorite-post/v2/author/?author_id=&old_post_id=&new_id=
 
 
