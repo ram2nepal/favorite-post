@@ -1,0 +1,19 @@
+.favorite-post {
+    padding: 10px;
+    background-color: green;
+    color: #fff;
+    text-decoration: none !important;
+    display: inline-block;
+
+}
+
+.favorite-post.added {
+    background-color: orangered !important;
+    color: #fff !important;
+}
+
+.favorite-post:hover {
+    padding: 10px;
+    background-color: #fff;
+    color: green;
+}
