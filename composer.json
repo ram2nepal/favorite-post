@@ -1,0 +1,19 @@
+{
+  "name": "favorite-post",
+  "version": "1.0.0",
+  "minimum-stability": "dev",
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/ram2nepal/favorite-post"
+    }
+  ],
+  "require" : {
+    "ram2nepal/favorite-post": "dev-master"
+  },
+  "extra": {
+    "installer-paths": {
+      "inc/{$name}": ["ram2nepal/favorite-post"]
+    }
+  }
+}
